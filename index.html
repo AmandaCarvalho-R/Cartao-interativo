@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <img src="imagem-roxa.png" class="imagem-roxa">
+    <img src="cartao-frente.png" class="cartao-frente">
+    <img src="cartao-verso.png" class="cartao-verso">
+</body>
+<main>
+    <form>
+        <label for="nometitular">Nome do Titular</label>
+        <input type="text" id="nometitular" class="input-padrao" required placeholder="Ex: Amanda C S Carvalho">
+
+        <label for="numerocartao">Número do Cartão</label>
+        <input type="text" id="numerocartao" class="input-padrao" required placeholder="Ex: 1234 5678 9123 0000">
+
+        <label for="validade">Validade do Cartão(MM/YY)</label>
+        <input type="text"  id="mes" class="mes" required placeholder="MM">
+        <input type="text"  id="ano" class="ano" required placeholder="YY">
+
+        <label for="cvc">CVC</label>
+        <input type="text" id="cvc" class="input-padrao" required placeholder="Ex: 123">
+
+        <input type="submit" value="Confirmar" class="enviar">
+    </form>
+</main>
+</html>
