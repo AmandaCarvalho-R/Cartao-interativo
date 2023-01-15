@@ -7,8 +7,7 @@
     <title>Cartão</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="js.js">
-
+     
 </head>
 <body>
  
@@ -19,32 +18,31 @@
 
          <form>
 
-            <img class="cartao-frente" src="cartao-frente.png" id="frente">
+            <img class="input-frente" src="cartao-frente.png">
             <div class="flex-item">
                 <label for="nometitular">Nome do Titular</label>
-                <input type="text" id="
-                " required placeholder="Ex: Amanda C S Carvalho">
+                <input type="text" id="" required placeholder="Ex: Amanda C S Carvalho" class="campo campo_nome">
             </div>
             
             <div class="flex-item">
                 <label for="numerocartao">Número do Cartão</label>
-                <input type="text" id="numerocartao" required placeholder="Ex: 1234 5678 9123 0000">
+                <input type="text" id="numerocartao" required placeholder="Ex: 1234 5678 9123 0000" class="campo campo_numero_cartao">
             </div>
             <div class="flex-item">
                 <label for="validade" class="validade">Validade do Cartão(MM/YY)</label>
-                <input type="text"  id="mes" required placeholder="MM" class="mes">
-                <input type="text"  id="ano" required placeholder="YY" class="ano">
+                <input type="text"  id="mes" required placeholder="MM" class="campo campo_mes">
+                <input type="text"  id="ano" required placeholder="YY" class="campo campo_ano">
             </div>
             <div class="flex-item">
                 <label for="cvc">CVC</label>
-                <input type="text" id="cvc" class="input-padrao" required placeholder="Ex: 123">
+                <input type="text" id="cvc" class="input-padrao" required placeholder="Ex: 123" class="campo campo_cvc">
             </div>
             <div class="flex-item">
                 <input type="submit" value="Confirmar" class="enviar">
             </div>
         
             <img class="cartao-verso" src="cartao-verso.png">
-            
+            <script src="main.js"></script>
         </form>
         
     </div>
