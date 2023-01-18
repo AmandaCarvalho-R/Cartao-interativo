@@ -8,6 +8,9 @@ JAVASCRIPT
 
 Obs. Primeiro projeto tentando utilizar a linguagem javascript.
 
+Site para visualização do projeto:
+https://newcartaointerativo.netlify.app/
+
 Abaixo imagem de como ficou o projeto.
 
 ![image](https://user-images.githubusercontent.com/121901080/213078486-4ad8d5c9-40a9-43ac-aa09-6f255f5d77cb.png)
